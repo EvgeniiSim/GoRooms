@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>SVG &lt;symbol&gt; sprite preview | svg-sprite</title>
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                color: #666;
+                background: #fafafa;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;
+                line-height: 1.4;
+            }
+
+            header {
+                display: block;
+                padding: 3em 3em 2em;
+                background-color: #fff;
+            }
+
+            header p {
+                margin: 2em 0 0;
+            }
+
+            section {
+                border-top: 1px solid #eee;
+                padding: 2em 3em 0;
+            }
+
+            section ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            section li {
+                display: inline-block;
+                background-color: #fff;
+                position: relative;
+                margin: 0 2em 2em 0;
+                vertical-align: top;
+                border: 1px solid #ccc;
+                padding: 1em 1em 3em;
+                cursor: default;
+            }
+
+            .icon-box {
+                margin: 0;
+                width: 144px;
+                height: 144px;
+                position: relative;
+                background: #ccc url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Cpath fill='%23fff' d='M6 0h6v6H6zM0 6h6v6H0z'/%3E%3C/svg%3E") top left repeat;
+                border: 1px solid #ccc;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+            }
+
+            .icon {
+                display: inline-block;
+            }
+
+            h1 {
+                margin-top: 0;
+            }
+
+            h2 {
+                margin: 0;
+                padding: 0;
+                font-size: 1em;
+                font-weight: 400;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                position: absolute;
+                left: 1em;
+                right: 1em;
+                bottom: 1em;
+            }
+
+            footer {
+                display: block;
+                margin: 0;
+                padding: 0 3em 3em;
+            }
+
+            footer p {
+                margin: 0;
+                font-size: .7em;
+            }
+
+            footer a {
+                color: #0f7595;
+                margin-left: 0;
+            }
+        </style>
+
+<!--
+Sprite shape dimensions
+====================================================================================================
+You will need to set the sprite shape dimensions via CSS when you use them as inline SVG, otherwise
+they would become a huge 100% in size. You may use the following dimension classes for doing so.
+They might well be outsourced to an external stylesheet of course.
+-->
+
+<style>
+ .svg-bolt-dims { width: 24px; height: 25px; }
+ .svg-boltbolt-dims { width: 24px; height: 25px; }
+ .svg-heart-dims { width: 24px; height: 24px; }
+ .svg-heartheart-dims { width: 24px; height: 24px; }
+ .svg-mail-dims { width: 24px; height: 24px; }
+ .svg-mailmail-dims { width: 24px; height: 24px; }
+ .svg-user-dims { width: 24px; height: 24px; }
+ .svg-user2user-dims { width: 24px; height: 24px; }
+</style>
+
+<!--
+====================================================================================================
+-->
+
+    </head>
+    <body>
+
+<!--
+Inline <symbol> SVG sprite
+====================================================================================================
+This is an inlined version of the generated SVG sprite. The single images may be <use>d everywhere
+below within this document. Please see
+
+    https://github.com/svg-sprite/svg-sprite/blob/main/docs/configuration.md#defs--symbol-mode
+
+for further details on how to create this embeddable sprite variant.
+-->
+
+<svg width="0" height="0" style="position:absolute">
+     <symbol fill="none" viewBox="0 0 24 25" id="bolt" xmlns="http://www.w3.org/2000/svg"><path d="M15.726 4.936a.5.5 0 0 0-.465-.686h-5.9a.5.5 0 0 0-.475.342l-2.667 8a.5.5 0 0 0 .475.658H9.36a.5.5 0 0 1 .485.621L8.438 19.5c-.123.492.48.833.838.475l8.87-8.87a.5.5 0 0 0-.353-.854h-3.454a.5.5 0 0 1-.465-.686l1.852-4.628Z" stroke="#6170FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+     <symbol fill="none" viewBox="0 0 24 25" id="boltbolt" xmlns="http://www.w3.org/2000/svg"><path d="M15.726 4.936a.5.5 0 0 0-.465-.686h-5.9a.5.5 0 0 0-.475.342l-2.667 8a.5.5 0 0 0 .475.658H9.36a.5.5 0 0 1 .485.621L8.438 19.5c-.123.492.48.833.838.475l8.87-8.87a.5.5 0 0 0-.353-.854h-3.454a.5.5 0 0 1-.465-.686l1.852-4.628Z" stroke="#6170FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+     <symbol fill="none" viewBox="0 0 24 24" id="heart" xmlns="http://www.w3.org/2000/svg"><path d="M12 20s9-4 9-10.286C21 6 18.965 4 16.454 4a4.465 4.465 0 0 0-3.214 1.38l-.52.54a1 1 0 0 1-1.44 0l-.52-.54A4.465 4.465 0 0 0 7.546 4C5 4 3 6 3 9.714 3 16 12 20 12 20Z" stroke="#6171FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+     <symbol fill="none" viewBox="0 0 24 24" id="heartheart" xmlns="http://www.w3.org/2000/svg"><path d="M12 20s9-4 9-10.286C21 6 18.965 4 16.454 4a4.465 4.465 0 0 0-3.214 1.38l-.52.54a1 1 0 0 1-1.44 0l-.52-.54A4.465 4.465 0 0 0 7.546 4C5 4 3 6 3 9.714 3 16 12 20 12 20Z" stroke="#6171FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+     <symbol fill="none" viewBox="0 0 24 24" id="mail" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 12c0 5.735 2.235 7.5 9.5 7.5 7.265 0 9.5-1.765 9.5-7.5 0-2.712-.5-4.536-1.794-5.705C18.262 4.99 15.83 4.5 12 4.5c-3.83 0-6.262.49-7.705 1.795C3 7.465 2.5 9.288 2.5 12Z" stroke="#6171FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="m19.705 6.294-6.29 6.292a2 2 0 0 1-2.83 0l-6.29-6.292" stroke="#6171FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+     <symbol fill="none" viewBox="0 0 24 24" id="mailmail" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 12c0 5.735 2.235 7.5 9.5 7.5 7.265 0 9.5-1.765 9.5-7.5 0-2.712-.5-4.536-1.794-5.705C18.262 4.99 15.83 4.5 12 4.5c-3.83 0-6.262.49-7.705 1.795C3 7.465 2.5 9.288 2.5 12Z" stroke="#6171FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="m19.705 6.294-6.29 6.292a2 2 0 0 1-2.83 0l-6.29-6.292" stroke="#6171FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+     <symbol fill="none" viewBox="0 0 24 24" id="user" xmlns="http://www.w3.org/2000/svg"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" stroke="#6171FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 18.702C18 15.671 14.5 15 12 15s-6 .67-6 3.702M12 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="#6171FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+     <symbol fill="none" viewBox="0 0 24 24" id="user2user" xmlns="http://www.w3.org/2000/svg"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" stroke="#6171FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 18.702C18 15.671 14.5 15 12 15s-6 .67-6 3.702M12 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="#6171FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<!--
+====================================================================================================
+-->
+
+        <header>
+            <h1>SVG <code>&lt;symbol&gt;</code> sprite preview</h1>
+            <p>This preview features two methods of using the generated sprite in conjunction with inline SVG. Please have a look at the HTML source for further details and be aware of the following constraints:</p>
+            <ul>
+                <li>Your browser has to <a href="https://caniuse.com/svg-html5" target="_blank" rel="noopener noreferrer">support inline SVG</a> for these techniques to work.</li>
+                <li>The embedded sprite (A) slightly differs from the generated external one. Please <a href="https://github.com/svg-sprite/svg-sprite/blob/main/docs/configuration.md#defs--symbol-mode" target="_blank" rel="noopener noreferrer">see the documentation</a> for details on how to create such an embeddable sprite.</li>
+            </ul>
+        </header>
+        <section>
+
+<!--
+A) Inline SVG with embedded sprite
+====================================================================================================
+These SVG images make use of fragment identifiers (IDs) and are extracted out of the inline sprite
+embedded above. They may be styled via CSS.
+-->
+
+            <h3>A) Inline SVG with embedded sprite</h3>
+            <ul>
+
+             <li title="bolt">
+                    <div class="icon-box">
+                        <svg class="svg-bolt-dims">
+                            <use xlink:href="#bolt"></use>
+                        </svg>
+                    </div>
+                    <h2>bolt, </h2>
+                </li>
+             <li title="boltbolt">
+                    <div class="icon-box">
+                        <svg class="svg-boltbolt-dims">
+                            <use xlink:href="#boltbolt"></use>
+                        </svg>
+                    </div>
+                    <h2>boltbolt, </h2>
+                </li>
+             <li title="heart">
+                    <div class="icon-box">
+                        <svg class="svg-heart-dims">
+                            <use xlink:href="#heart"></use>
+                        </svg>
+                    </div>
+                    <h2>heart, </h2>
+                </li>
+             <li title="heartheart">
+                    <div class="icon-box">
+                        <svg class="svg-heartheart-dims">
+                            <use xlink:href="#heartheart"></use>
+                        </svg>
+                    </div>
+                    <h2>heartheart, </h2>
+                </li>
+             <li title="mail">
+                    <div class="icon-box">
+                        <svg class="svg-mail-dims">
+                            <use xlink:href="#mail"></use>
+                        </svg>
+                    </div>
+                    <h2>mail, </h2>
+                </li>
+             <li title="mailmail">
+                    <div class="icon-box">
+                        <svg class="svg-mailmail-dims">
+                            <use xlink:href="#mailmail"></use>
+                        </svg>
+                    </div>
+                    <h2>mailmail, </h2>
+                </li>
+             <li title="user">
+                    <div class="icon-box">
+                        <svg class="svg-user-dims">
+                            <use xlink:href="#user"></use>
+                        </svg>
+                    </div>
+                    <h2>user, </h2>
+                </li>
+             <li title="user2user">
+                    <div class="icon-box">
+                        <svg class="svg-user2user-dims">
+                            <use xlink:href="#user2user"></use>
+                        </svg>
+                    </div>
+                    <h2>user2user, </h2>
+                </li>
+         </ul>
+
+<!--
+====================================================================================================
+-->
+
+        </section>
+        <section>
+
+<!--
+B) Inline SVG with external sprite
+====================================================================================================
+These SVG images make use of an URL + fragment identifiers (IDs) and refer to the regular external
+SVG sprite. They may be styled via CSS.
+-->
+
+            <h3>B) Inline SVG with external sprite</h3>
+            <ul>
+
+             <li title="bolt">
+                    <div class="icon-box">
+                        <svg class="svg-bolt-dims">
+                            <use xlink:href="../sprite-multi.svg#bolt"></use>
+                        </svg>
+                    </div>
+                    <h2>bolt</h2>
+                </li>
+             <li title="boltbolt">
+                    <div class="icon-box">
+                        <svg class="svg-boltbolt-dims">
+                            <use xlink:href="../sprite-multi.svg#boltbolt"></use>
+                        </svg>
+                    </div>
+                    <h2>boltbolt</h2>
+                </li>
+             <li title="heart">
+                    <div class="icon-box">
+                        <svg class="svg-heart-dims">
+                            <use xlink:href="../sprite-multi.svg#heart"></use>
+                        </svg>
+                    </div>
+                    <h2>heart</h2>
+                </li>
+             <li title="heartheart">
+                    <div class="icon-box">
+                        <svg class="svg-heartheart-dims">
+                            <use xlink:href="../sprite-multi.svg#heartheart"></use>
+                        </svg>
+                    </div>
+                    <h2>heartheart</h2>
+                </li>
+             <li title="mail">
+                    <div class="icon-box">
+                        <svg class="svg-mail-dims">
+                            <use xlink:href="../sprite-multi.svg#mail"></use>
+                        </svg>
+                    </div>
+                    <h2>mail</h2>
+                </li>
+             <li title="mailmail">
+                    <div class="icon-box">
+                        <svg class="svg-mailmail-dims">
+                            <use xlink:href="../sprite-multi.svg#mailmail"></use>
+                        </svg>
+                    </div>
+                    <h2>mailmail</h2>
+                </li>
+             <li title="user">
+                    <div class="icon-box">
+                        <svg class="svg-user-dims">
+                            <use xlink:href="../sprite-multi.svg#user"></use>
+                        </svg>
+                    </div>
+                    <h2>user</h2>
+                </li>
+             <li title="user2user">
+                    <div class="icon-box">
+                        <svg class="svg-user2user-dims">
+                            <use xlink:href="../sprite-multi.svg#user2user"></use>
+                        </svg>
+                    </div>
+                    <h2>user2user</h2>
+                </li>
+         </ul>
+
+<!--
+====================================================================================================
+-->
+
+        </section>
+        <footer>
+            <p>Generated at Sat, 16 Dec 2023 12:31:45 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
+        </footer>
+    </body>
+</html>
